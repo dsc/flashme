@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flash Me</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="css/base.min.css" type="text/css" />
+<link rel="stylesheet" href="css/flashing.css" type="text/css" />
+</head>
+<body>
+
+<div id="card"></div>
+
+<div id="footer">
+    <ul class="inner">
+        <li class="status">zzz</li>
+        <li class="buttons">
+            <a id="new-card-link" class="new-card button" href="#new-card">New Card</a>
+        </li>
+        <li class="last"><b>flash me!</b> &mdash; i am helping.</li>
+        <br class="clearer" />
+    </ul>
+</div>
+
+<fieldset id="new-card-dialog" class="new-card dialog">
+    <legend>New Card</legend>
+    <form action="#">
+        <ul>
+            <li><label for="new-card-front">Front:</label> <input id="new-card-front" class="front" type="text" name="front" value="" /></li>
+            <li><label for="new-card-back">Back:</label> <input id="new-card-back" class="back" type="text" name="back" value="" /></li>
+        </ul>
+        <input type="submit" value="Add New Card" />
+    </form>
+</fieldset>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/lib/jquery.hotkeys.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/lib/persist-all-min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/u.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/basis.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/Store.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/User.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/Card.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/Library.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/flashme.js" charset="utf-8"></script>
+</body>
+</html>
